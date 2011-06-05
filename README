@@ -1,0 +1,3 @@
+Example offline JQuery Mobile application.
+Uses an alpha release of JQuery Mobile.
+Some of the event handling doubles up or does not show up.

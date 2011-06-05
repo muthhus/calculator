@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css"/>
+    <link rel="apple-touch-icon" href="/calculator.png"/>
+    <script src="http://code.jquery.com/jquery-1.5.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+    <script src="calculator.js"></script>
+</head>
+<body>
+<div data-role="page" data-theme="b" id="simple-calculator">
+    <div data-role="fieldcontain">
+        <label for="display"></label>
+        <textarea cols="40" rows="8" name="display" id="display" readonly></textarea>
+    </div>
+    <fieldset class="ui-grid-c">
+        <div class="ui-block-a">
+            <button type="button">7</button>
+        </div>
+        <div class="ui-block-b">
+            <button type="button">8</button>
+        </div>
+        <div class="ui-block-c">
+            <button type="button">9</button>
+        </div>
+        <div class="ui-block-d">
+            <button type="button" data-theme="b">+</button>
+        </div>
+        <div class="ui-block-a">
+            <button type="button">4</button>
+        </div>
+        <div class="ui-block-b">
+            <button type="button">5</button>
+        </div>
+        <div class="ui-block-c">
+            <button type="button">6</button>
+        </div>
+        <div class="ui-block-d">
+            <button type="button" data-theme="b">-</button>
+        </div>
+        <div class="ui-block-a">
+            <button type="button">1</button>
+        </div>
+        <div class="ui-block-b">
+            <button type="button">2</button>
+        </div>
+        <div class="ui-block-c">
+            <button type="button">3</button>
+        </div>
+        <div class="ui-block-d">
+            <button type="button" data-theme="b">*</button>
+        </div>
+        <div class="ui-block-a">
+            <button type="button">(</button>
+        </div>
+        <div class="ui-block-b">
+            <button type="button">0</button>
+        </div>
+        <div class="ui-block-c">
+            <button type="button">)</button>
+        </div>
+        <div class="ui-block-d">
+            <button type="button" data-theme="b">/</button>
+        </div>
+        <div class="ui-block-a">
+            <button type="button" data-theme="e">C</button>
+        </div>
+        <div class="ui-block-b">
+            <button type="button">.</button>
+        </div>
+        <div class="ui-block-c">
+            <button type="button" data-theme="e">&#x21D0;</button>
+        </div>
+        <div class="ui-block-d">
+            <button type="button" data-theme="a">=</button>
+        </div>
+    </fieldset>
+</div>
+</body>
+</html>
